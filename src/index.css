@@ -17,12 +17,6 @@ code {
   background-color: rgb(180, 180, 77);
   min-width: 100%;
   min-height: 700px;
-<<<<<<< HEAD
-  
-=======
-  display: grid;
-  grid-template-areas: auto auto auto;
->>>>>>> 5ea4c2e85dc09e929cd9705c5406dac563a7cc86
 }
 .navDecoration {
   text-align: center;
@@ -74,7 +68,6 @@ code {
 
 .movieDisplayInfo{
   padding-top: 40px;
-<<<<<<< HEAD
   margin: 5px;
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -88,7 +81,3 @@ code {
 .wrapper{
   margin: 10px;
 }
-=======
-  width: 18rem;
-}
->>>>>>> 5ea4c2e85dc09e929cd9705c5406dac563a7cc86
