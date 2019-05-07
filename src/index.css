@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 body {
   margin: 0;
   padding: 0;
@@ -21,9 +22,10 @@ code {
 .navDecoration {
   text-align: center;
   background-color: rgb(139, 127, 127);
-  height: 50px;
+  height: 70px;
   width: 100%;
-  padding: 20px;
+  padding: 30px;
+  font-family: Pacifico;
 }
 
 
@@ -33,19 +35,20 @@ code {
 }
 .navDecoration ul li{
   display: inline;
-  padding: 30px;
-  font-size: 1.5rem;
+  padding: 40px;
+  font-size: 3.5rem;
 }
 
 .navDecoration ul li a{
   text-decoration: none;
   color: black;
+  font-weight: bold;
   
 }
 
 
 .searchButton{
-  background-color: rgb(30, 109, 228);
+  background-color: rgb(0, 207, 190);
   color: black;
   border-radius: 5px;
   width: 200px;
@@ -53,6 +56,7 @@ code {
   position: relative;
   top: 0;
   left: 40px;
+  margin-bottom: 40px;
 
 }
 
@@ -60,7 +64,7 @@ code {
   width: 90%;
   height: 60px;
   margin: 50px;
-  font-size: 1.5rem;
+  border: 2px solid rgb(0, 207, 190);
 }
 .searchDiv{
   display: inline-block;
