@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container{
+  background-color: rgb(180, 180, 77);
+  min-width: 100%;
+  min-height: 700px;
+<<<<<<< HEAD
+  
+=======
+  display: grid;
+  grid-template-areas: auto auto auto;
+>>>>>>> 5ea4c2e85dc09e929cd9705c5406dac563a7cc86
+}
+.navDecoration {
+  text-align: center;
+  background-color: rgb(139, 127, 127);
+  height: 50px;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.navDecoration ul{
+  list-style-type: none;
+  
+}
+.navDecoration ul li{
+  display: inline;
+  padding: 30px;
+  font-size: 1.5rem;
+}
+
+.navDecoration ul li a{
+  text-decoration: none;
+  color: black;
+  
+}
+
+
+.searchButton{
+  background-color: rgb(30, 109, 228);
+  color: black;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  top: 0;
+  left: 40px;
+
+}
+
+.searchBox{
+  width: 90%;
+  height: 60px;
+  margin: 50px;
+  font-size: 1.5rem;
+}
+.searchDiv{
+  display: inline-block;
+}
+
+.movieDisplayInfo{
+  padding-top: 40px;
+<<<<<<< HEAD
+  margin: 5px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.styleHead{
+  font-size: 1.5rem;
+  background-color: white;
+  font-weight: bold;
+
+}
+.wrapper{
+  margin: 10px;
+}
+=======
+  width: 18rem;
+}
+>>>>>>> 5ea4c2e85dc09e929cd9705c5406dac563a7cc86
