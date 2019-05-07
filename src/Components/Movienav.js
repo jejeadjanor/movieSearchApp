@@ -6,7 +6,7 @@ class Moviesnav extends Component {
       return (
         <div  className='navDecoration' >
             <ul>
-                <li><Link to='/'>Movies</Link></li>
+                <li><Link to='/'>MovieSearchSite</Link></li>
                 <li><Link to='/about'>About</Link></li>
                 <li><Link to='/contact'>Contact</Link></li>
             </ul>
